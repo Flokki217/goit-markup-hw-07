@@ -45,10 +45,9 @@ h4 {
 }
 .container {
   width: 100%;
-  padding-left: 82px;
-  padding-right: 82px;
-  padding-bottom: 96px;
-  padding-top: 96px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -74,7 +73,9 @@ body {
   font-size: 16px;
   color: var(--main-color);
   background-color: var(--white-color);
-  align-items: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .no-scroll {
   overflow: hidden;
@@ -284,6 +285,8 @@ body {
 /* Team */
 .team {
   background-color: var(--cloud-color);
+  padding-top: 96px;
+  padding-bottom: 128px;
 }
 .team-text {
   padding: 32px 0px;
@@ -318,10 +321,14 @@ body {
 }
 .team-list .item {
   background-color: var(--white-color);
-  width: auto;
+  width: 264px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  margin-bottom: 72px;
+}
+.team > .container {
+  width: 296px;
 }
 .team-list .item {
   /* width: calc((100% - 72px) / 4); */
@@ -354,8 +361,8 @@ body {
 }
 /* -------------------CUSTOMERS---------------------------- */
 .customers {
-  padding-bottom: 120px;
-  padding-top: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .customers-tittle {
   font-weight: 700;
@@ -369,7 +376,8 @@ body {
 }
 .customers-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .customers-icon {
@@ -378,7 +386,7 @@ body {
 }
 .customers-link {
   transition: fill var(--for-animation), border-color var(--for-animation);
-  width: 168px;
+  width: 190px;
   height: 88px;
   align-items: center;
   justify-content: center;
