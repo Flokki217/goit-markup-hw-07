@@ -44,11 +44,11 @@ h4 {
   margin-bottom: 0;
 }
 .container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  /* outline: 1px solid red; */
-  margin: 0 auto;
+  width: 100%;
+  padding-left: 82px;
+  padding-right: 82px;
+  padding-bottom: 96px;
+  padding-top: 96px;
 }
 
 .visually-hidden {
@@ -161,9 +161,9 @@ body {
 /* Hero */
 .hero {
   background-color: var(--tittle-color);
-  padding-top: 188px;
-  padding-bottom: 188px;
-  max-width: 1440px;
+  padding-top: 112px;
+  padding-bottom: 108px;
+  width: 100%;
   background-image: linear-gradient(
       to right,
       rgba(46, 47, 66, 0.7),
@@ -178,7 +178,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--white-color);
   line-height: 1.07;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
@@ -197,8 +197,8 @@ body {
   min-width: 169px;
   padding: 16px 32px;
   border-radius: 4px;
-  display: flex;
-  margin: 0 auto;
+  /* display: flex;
+  margin: 0 auto; */
   border-color: transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -252,6 +252,8 @@ body {
 /* Examples */
 
 .examples {
+  padding-left: 15px;
+  padding-right: 15px;
   padding-bottom: 120px;
 }
 
@@ -265,11 +267,11 @@ body {
   margin-bottom: 72px;
 }
 .examples-list {
-  display: flex;
+  /* display: flex; */
   gap: 24px;
 }
 .examples-list .item {
-  width: calc((100% - 48px) / 3);
+  /* width: calc((100% - 48px) / 3); */
   border: 1px solid #e7e9fc;
   background: linear-gradient(
       0deg,
@@ -282,8 +284,6 @@ body {
 /* Team */
 .team {
   background-color: var(--cloud-color);
-  padding-bottom: 120px;
-  padding-top: 120px;
 }
 .team-text {
   padding: 32px 0px;
@@ -313,8 +313,8 @@ body {
 }
 .team-list {
   list-style: none;
-  display: flex;
-  gap: 24px;
+  /* display: flex; */
+  /* gap: 24px; */
 }
 .team-list .item {
   background-color: var(--white-color);
@@ -324,7 +324,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .team-list .item {
-  width: calc((100% - 72px) / 4);
+  /* width: calc((100% - 72px) / 4); */
 }
 .soc-media-list {
   display: flex;
