@@ -7,7 +7,21 @@
   .container {
     width: 768px;
   }
+  .container > .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 16px;
+  }
+  .team-list > .item {
+    width: calc((100% - 58px) / 2);
+    /* margin-right: 16px;
+    margin-bottom: 64px; */
+  }
+  .team > .container {
+    width: 578px;
+  }
 }
+
 @media screen and (min-width: 1128px) {
   .container {
     width: 1128px;
