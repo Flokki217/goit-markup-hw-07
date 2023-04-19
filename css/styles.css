@@ -390,7 +390,7 @@ body {
 }
 .customers-link {
   transition: fill var(--for-animation), border-color var(--for-animation);
-  width: 190px;
+  width: 168px;
   height: 88px;
   align-items: center;
   justify-content: center;
