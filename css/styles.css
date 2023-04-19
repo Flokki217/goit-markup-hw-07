@@ -371,7 +371,6 @@ body {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: var(--tittle-color);
   margin-bottom: 72px;
 }
@@ -390,7 +389,7 @@ body {
 }
 .customers-link {
   transition: fill var(--for-animation), border-color var(--for-animation);
-  width: 168px;
+  width: 138px;
   height: 88px;
   align-items: center;
   justify-content: center;
