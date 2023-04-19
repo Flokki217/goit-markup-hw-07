@@ -375,10 +375,13 @@ body {
   color: var(--tittle-color);
   margin-bottom: 72px;
 }
+.customers-item {
+  width: calc((100% - 32px) / 2);
+}
 .customers-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 72px 16px;
 }
 
 .customers-icon {
