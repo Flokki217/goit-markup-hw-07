@@ -364,7 +364,6 @@ body {
 .customers {
   padding-top: 96px;
   padding-bottom: 96px;
-  justify-content: center;
 }
 .customers-tittle {
   font-weight: 700;
@@ -380,6 +379,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 72px 16px;
+  justify-content: center;
 }
 
 .customers-icon {
