@@ -374,14 +374,11 @@ body {
   color: var(--tittle-color);
   margin-bottom: 72px;
 }
-.customers-item {
-  width: calc((100% - 32px) / 2);
-}
+
 .customers-list {
   display: flex;
   flex-wrap: wrap;
   gap: 72px 16px;
-  justify-content: space-between;
 }
 
 .customers-icon {
@@ -390,9 +387,10 @@ body {
 }
 .customers-link {
   transition: fill var(--for-animation), border-color var(--for-animation);
-  height: 88px;
   align-items: center;
   justify-content: center;
+  width: 135px;
+  height: 80px;
   display: flex;
   fill: #afb1b8;
   border: 1px solid #8e8f99;
