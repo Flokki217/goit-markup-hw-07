@@ -382,11 +382,9 @@ body {
   flex-wrap: wrap;
   gap: 72px 16px;
 }
-.customers-list:nth-child(odd) {
-  margin-right: 16px;
-}
+
 .customers-icon {
-  width: 104px;
+  width: auto;
   height: 56px;
 }
 .customers-link {
