@@ -18,15 +18,13 @@
   .customers .container {
     width: 558px;
   }
-  .container > .team-list {
+  .team-list {
     display: flex;
     flex-wrap: wrap;
     gap: 64px 16px;
   }
   .team-list > .item {
     width: calc((100% - 32px) / 2);
-    /* margin-right: 16px;
-    margin-bottom: 64px; */
   }
   .team > .container {
     width: 578px;
@@ -46,5 +44,16 @@
 @media screen and (min-width: 1128px) {
   .container {
     width: 1128px;
+  }
+  .team > .container {
+    width: 1128px;
+  }
+
+  .team-list {
+    gap: unset;
+  }
+  .team-list .item {
+    width: calc((100% - 96px) / 4);
+    margin-right: 24px;
   }
 }
