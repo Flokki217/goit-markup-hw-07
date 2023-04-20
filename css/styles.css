@@ -364,6 +364,7 @@ body {
 .customers {
   padding-top: 96px;
   padding-bottom: 96px;
+  justify-content: center;
 }
 .customers-tittle {
   font-weight: 700;
