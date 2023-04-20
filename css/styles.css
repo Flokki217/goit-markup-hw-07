@@ -382,14 +382,15 @@ body {
   flex-wrap: wrap;
   gap: 72px 16px;
 }
-
+.customers-list:nth-child(odd) {
+  margin-right: 16px;
+}
 .customers-icon {
   width: 104px;
   height: 56px;
 }
 .customers-link {
   transition: fill var(--for-animation), border-color var(--for-animation);
-  width: auto;
   height: 88px;
   align-items: center;
   justify-content: center;
