@@ -5,12 +5,70 @@
   .customers-link {
     width: 190px;
   }
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/office-tab.jpg');
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/office-tab-2x.jpg');
+    }
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
   }
-
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/office.jpg');
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/office-2x.jpg');
+    }
+  }
+  .hero-tittle {
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    margin-bottom: 40px;
+    max-width: 496px;
+  }
+  .skills-list {
+    gap: 72px 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .secondary-tittle {
+    text-align: unset;
+  }
+  .skills-list .item {
+    width: 356px;
+  }
   .team-list {
     display: flex;
     flex-wrap: wrap;
@@ -40,6 +98,72 @@
   .container {
     width: 1128px;
   }
+  .hero {
+    padding-bottom: 188px;
+    padding-top: 188px;
+  }
+  .skills-section {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+  .skill-icon {
+    width: 264px;
+    height: 112px;
+    background: var(--cloud-color);
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-item {
+    width: 64px;
+    height: 64px;
+  }
+  .secondary-tittle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.07;
+  }
+  .skills-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .skill-text {
+    font-weight: 400;
+    width: 264px;
+  }
+  .examples {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 120px;
+  }
+
+  .examples-tittle {
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--tittle-color);
+    line-height: 1.11;
+    margin-bottom: 72px;
+  }
+  .examples-list {
+    display: flex;
+    gap: 24px;
+  }
+  .examples-list .item {
+    width: calc((100% - 48px) / 3);
+    border: 1px solid #e7e9fc;
+    background: linear-gradient(
+        0deg,
+        rgba(77, 90, 229, 0.1),
+        rgba(77, 90, 229, 0.1)
+      ),
+      url(2368.jpg);
+    background-blend-mode: soft-light, normal;
+  }
+
   .team > .container {
     width: 1160px;
   }
