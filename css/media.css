@@ -25,6 +25,9 @@
         url('../images/office-tab-2x.jpg');
     }
   }
+  .modal-window {
+    width: 392px;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -91,6 +94,10 @@
   }
   .customers-item {
     width: 168px;
+  }
+  .modal-window {
+    width: 408px;
+    padding: 24px;
   }
 }
 
