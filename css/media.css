@@ -25,6 +25,9 @@
         url('../images/office-tab-2x.jpg');
     }
   }
+  .footer-secondary-block {
+    width: 268px;
+  }
   .modal-window {
     width: 392px;
   }
