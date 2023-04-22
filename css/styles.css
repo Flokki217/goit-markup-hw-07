@@ -90,9 +90,11 @@ body {
 .header .container {
   display: flex;
   align-items: center;
+  height: 70px;
+  justify-content: flex-start;
 }
 .site-nav {
-  display: flex;
+  display: none;
   align-items: center;
 }
 .header {
@@ -136,7 +138,7 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   gap: 40px;
-  display: flex;
+  display: none;
 }
 .feedback {
   margin-left: auto;
