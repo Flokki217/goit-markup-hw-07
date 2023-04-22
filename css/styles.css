@@ -393,8 +393,9 @@ body {
 }
 .footer-text {
   color: #e7e9fc;
-  width: 268px;
   line-height: 1.5;
+  text-align: start;
+  letter-spacing: 0.02em;
 }
 
 .footer-section .logo {
@@ -412,6 +413,9 @@ body {
 }
 .footer-text-box {
   margin-bottom: 72px;
+  width: 268px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-section .container {
   display: flex;
@@ -422,6 +426,8 @@ body {
 
 .footer-social {
   margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-social .soc-link {
   transition: background-color var(--for-animation);
@@ -453,7 +459,9 @@ body {
   gap: 16px;
   justify-content: center;
 }
-
+.footer-form {
+  display: block;
+}
 .footer-input {
   width: 100%;
   height: 40px;
@@ -472,13 +480,10 @@ body {
   margin-bottom: 16px;
 }
 .footer-btn {
+  font-family: 'Raleway', sans-serif;
   width: 165px;
   height: 40px;
   background-color: var(--accent-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
   border: none;
   border-radius: 4px;
   color: var(--white-color);
@@ -486,6 +491,13 @@ body {
   padding-left: 24px;
   transition: background-color var(--for-animation);
   cursor: pointer;
+  text-align: center;
+}
+.footer-btn span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .footer-btn:focus,
 .footer-btn:hover {
@@ -494,6 +506,7 @@ body {
 .footer-send-icon {
   fill: var(--white-color);
   margin-left: 16px;
+  transform: translatey(5px);
 }
 .footer-input::placeholder {
   font-size: 12px;

@@ -25,9 +25,11 @@
         url('../images/office-tab-2x.jpg');
     }
   }
-  .footer-secondary-block {
-    width: 268px;
+
+  .footer-input {
+    width: 398px;
   }
+
   .modal-window {
     width: 392px;
   }
@@ -97,6 +99,14 @@
   }
   .customers-item {
     width: 168px;
+  }
+  .footer-secondary-block {
+    display: flex;
+    gap: 24px;
+    text-align: start;
+  }
+  .footer-section .logo {
+    margin-bottom: 16px;
   }
   .modal-window {
     width: 408px;
