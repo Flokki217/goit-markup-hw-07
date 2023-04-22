@@ -492,6 +492,7 @@ body {
   transition: background-color var(--for-animation);
   cursor: pointer;
   text-align: center;
+  display: inline-flex;
 }
 .footer-btn span {
   font-weight: 500;
@@ -506,7 +507,6 @@ body {
 .footer-send-icon {
   fill: var(--white-color);
   margin-left: 16px;
-  transform: translatey(5px);
 }
 .footer-input::placeholder {
   font-size: 12px;
