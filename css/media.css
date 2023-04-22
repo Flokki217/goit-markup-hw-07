@@ -100,13 +100,31 @@
   .customers-item {
     width: 168px;
   }
+  .footer-social {
+    margin-bottom: 0;
+  }
+  .footer-text-box {
+    margin-bottom: 0px;
+  }
   .footer-secondary-block {
     display: flex;
     gap: 24px;
-    text-align: start;
+    margin-bottom: 72px;
   }
   .footer-section .logo {
     margin-bottom: 16px;
+  }
+  .footer-form-container {
+    text-align: start;
+  }
+  .footer-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+  }
+  .footer-input {
+    width: 264px;
   }
   .modal-window {
     width: 408px;
