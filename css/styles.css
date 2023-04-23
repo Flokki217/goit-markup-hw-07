@@ -40,8 +40,7 @@ h1,
 h2,
 h3,
 h4 {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 .container {
   width: 100%;
@@ -91,76 +90,24 @@ body {
   display: flex;
   align-items: center;
   height: 70px;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 .site-nav {
   display: none;
-  align-items: center;
-}
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
-/* Navigation----------------- */
-.nav-list .link:hover,
-.nav-list .link:focus {
-  color: var(--bright-color);
-}
-.nav-list .item {
-  position: relative;
-}
-.nav-list .link {
-  transition: color var(--for-animation);
-
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--tittle-color);
-  text-decoration: none;
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.nav-list {
-  display: flex;
-}
-
-.nav-list .item + .item {
-  margin-left: 40px;
-}
-.nav-list .item:first-child {
-  margin-left: 76px;
 }
 .feedback .list {
-  flex-wrap: wrap;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  gap: 40px;
   display: none;
 }
-.feedback {
-  margin-left: auto;
+.mob-menu-button {
+  background-color: transparent;
+  border: none;
 }
-.feedback-list .link {
-  transition: color var(--for-animation);
-  font-weight: 400;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--main-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
+.menu-icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
-
-.feedback .link:hover,
-.feedback .link:focus {
-  color: var(--bright-color);
-}
-
 /* Hero */
 .hero {
   background-color: var(--tittle-color);
@@ -415,9 +362,7 @@ body {
 }
 .footer-text-box {
   margin-bottom: 72px;
-  width: 268px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 264px;
 }
 .footer-section .container {
   display: flex;
@@ -472,7 +417,6 @@ body {
   border-radius: 4px;
   outline: none;
   background-color: transparent;
-  margin-right: 24px;
   font-size: 16px;
   line-height: 2;
   letter-spacing: 0.04em;
@@ -482,7 +426,7 @@ body {
   margin-bottom: 16px;
 }
 .footer-btn {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   width: 165px;
   height: 40px;
   background-color: var(--accent-color);
@@ -491,17 +435,15 @@ body {
   color: var(--white-color);
   align-items: center;
   padding-left: 24px;
+  padding-right: 24px;
   transition: background-color var(--for-animation);
   cursor: pointer;
-  text-align: center;
   display: inline-flex;
-}
-.footer-btn span {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+
 .footer-btn:focus,
 .footer-btn:hover {
   background-color: var(--bright-color);
