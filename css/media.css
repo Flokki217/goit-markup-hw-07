@@ -41,6 +41,9 @@
   .mob-menu-button {
     display: none;
   }
+  .mob-menu {
+    display: none;
+  }
   .site-nav {
     display: flex;
     align-items: center;
@@ -58,7 +61,6 @@
   }
   .nav-list .link {
     transition: color var(--for-animation);
-
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -73,19 +75,14 @@
 
   .nav-list {
     display: flex;
+    margin-left: 120px;
   }
 
   .nav-list .item + .item {
     margin-left: 40px;
   }
-  .nav-list .item:first-child {
-    margin-left: 76px;
-  }
+
   .feedback .list {
-    flex-wrap: wrap;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    gap: 40px;
     display: block;
   }
   .feedback {
@@ -94,10 +91,10 @@
   .feedback-list .link {
     transition: color var(--for-animation);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
+    line-height: 1.17;
     font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
     text-decoration: none;
     color: var(--main-color);
     padding-top: 24px;
@@ -208,8 +205,19 @@
   .container {
     width: 1128px;
   }
+  .nav-list {
+    margin-left: 76px;
+  }
   .feedback .list {
     display: flex;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 40px;
+  }
+  .feedback-list .link {
+    font-size: 16px;
+    line-height: 1.5;
   }
   .hero {
     padding-bottom: 188px;

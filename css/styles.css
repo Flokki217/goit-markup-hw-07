@@ -98,15 +98,93 @@ body {
 .feedback .list {
   display: none;
 }
-.mob-menu-button {
+.open-mob-button {
   background-color: transparent;
   border: none;
 }
+
 .menu-icon {
   display: inline-block;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+}
+.mob-menu {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 24px 24px 40px 40px;
+  background-color: #ffffff;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 2;
+}
+.mob-nav-list .link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--tittle-color);
+  text-decoration: none;
+}
+.mob-nav-list {
+  display: flex;
+  gap: 40px 0px;
+  flex-direction: column;
+}
+.mob-nav-list .current {
+  color: var(--bright-color);
+}
+.mob-feedback-list {
+  display: flex;
+  gap: 40px 0;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+.tel-link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-style: normal;
+}
+.email-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--main-color);
+  text-decoration: none;
+  font-style: normal;
+}
+.soc-mobile-list {
+  display: flex;
+  gap: 56px;
+}
+.close-mob-button {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  margin-bottom: 32px;
+  align-items: center;
+  justify-content: center;
+  background: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  cursor: pointer;
+  color: #000000;
+  transition: background-color var(--for-animation), fill var(--for-animation);
+}
+.close-mob-button:active,
+.colose-mob-button:focus,
+.close-mob-button:hover {
+  background-color: var(--bright-color);
+  color: var(--white-color);
 }
 /* Hero */
 .hero {
