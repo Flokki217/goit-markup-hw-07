@@ -86,7 +86,7 @@
     padding-top: 24px;
     padding-bottom: 24px;
     gap: 40px;
-    display: flex;
+    display: block;
   }
   .feedback {
     margin-left: auto;
@@ -207,6 +207,9 @@
 @media screen and (min-width: 1128px) {
   .container {
     width: 1128px;
+  }
+  .feedback .list {
+    display: flex;
   }
   .hero {
     padding-bottom: 188px;
