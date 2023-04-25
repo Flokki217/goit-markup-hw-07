@@ -124,6 +124,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   z-index: 2;
+  transition: opacity var(--for-animation);
 }
 .mob-nav-list .link {
   font-weight: 700;
