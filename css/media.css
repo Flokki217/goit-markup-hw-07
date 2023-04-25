@@ -59,9 +59,7 @@
     display: flex;
     align-items: center;
   }
-  .header {
-    border-bottom: 1px solid #e7e9fc;
-  }
+
   /* Navigation----------------- */
   .nav-list .link:hover,
   .nav-list .link:focus {
@@ -210,6 +208,10 @@
     width: 408px;
     padding: 24px;
   }
+  .portfolio-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 /* ---------------------------Width---------1128------------------------------------------------------ */
 @media screen and (min-width: 1128px) {
@@ -334,10 +336,7 @@
   .footer-form {
     display: flex;
   }
-  .portfolio-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+
   .portfolio-list .item {
     transition: box-shadow var(--for-animation);
     width: calc((100% - 48px) / 3);

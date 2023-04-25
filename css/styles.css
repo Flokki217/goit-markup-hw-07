@@ -96,6 +96,9 @@ body {
   height: 70px;
   justify-content: space-between;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .site-nav {
   display: none;
 }
@@ -576,9 +579,7 @@ body {
   background-color: var(--cloud-color);
   border: 1px solid #e7e9fc;
 }
-.portfolio-buttons .item + .item {
-  margin-left: 24px;
-}
+
 .portfolio-buttons .btn:hover,
 .portfolio-buttons .btn:focus {
   color: var(--white-color);
@@ -589,7 +590,9 @@ body {
 }
 .portfolio-buttons {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px 24px;
+  justify-content: flex-start;
   margin-bottom: 72px;
 }
 
