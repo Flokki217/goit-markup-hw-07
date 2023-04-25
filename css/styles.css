@@ -109,12 +109,12 @@ body {
   background-color: transparent;
   border: none;
 }
-
+/* =========================Mobile-menu=============================== */
 .menu-icon {
   display: inline-block;
   stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
+  stroke: var(--tittle-color);
+  fill: var(--tittle-color);
 }
 .mob-menu {
   position: fixed;
@@ -143,7 +143,9 @@ body {
 .mob-nav-list .current {
   color: var(--bright-color);
 }
-
+.mob-nav-list {
+  margin-top: 56px;
+}
 .mob-feedback-list {
   display: flex;
   gap: 40px 0;
@@ -175,23 +177,23 @@ body {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  display: flex;
+  position: absolute;
   align-items: center;
+  top: 24px;
+  right: 24px;
+  display: flex;
   justify-content: center;
-  flex-shrink: 1;
   background: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  margin-left: auto;
-  margin-bottom: 32px;
   cursor: pointer;
-  color: #000000;
+  fill:red
   transition: background-color var(--for-animation), fill var(--for-animation);
 }
 .close-mob-button:active,
 .colose-mob-button:focus,
 .close-mob-button:hover {
   background-color: var(--bright-color);
-  color: var(--white-color);
+  fill: var(--white-color);
 }
 .soc-mobile-list .soc-icon {
   width: 24px;
