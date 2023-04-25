@@ -334,6 +334,10 @@
   .footer-form {
     display: flex;
   }
+  .portfolio-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .portfolio-list .item {
     transition: box-shadow var(--for-animation);
     width: calc((100% - 48px) / 3);
