@@ -116,7 +116,7 @@ body {
   height: 100vh;
   padding: 24px 24px 40px 40px;
   background-color: #ffffff;
-  justify-content: space-between;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -130,14 +130,13 @@ body {
   color: var(--tittle-color);
   text-decoration: none;
 }
-.mob-nav-list {
-  display: flex;
-  gap: 40px 0px;
-  flex-direction: column;
+.mob-nav-list .item:not(:last-child) {
+  margin-bottom: 40px;
 }
 .mob-nav-list .current {
   color: var(--bright-color);
 }
+
 .mob-feedback-list {
   display: flex;
   gap: 40px 0;
@@ -146,7 +145,7 @@ body {
 }
 .tel-link {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--accent-color);
@@ -163,19 +162,19 @@ body {
 }
 .soc-mobile-list {
   display: flex;
-  gap: 56px;
+  gap: 26px;
 }
 .close-mob-button {
   width: 24px;
   height: 24px;
   border-radius: 50%;
   display: flex;
-  margin-bottom: 32px;
   align-items: center;
   justify-content: center;
   background: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin-left: auto;
+  margin-bottom: 32px;
   cursor: pointer;
   color: #000000;
   transition: background-color var(--for-animation), fill var(--for-animation);

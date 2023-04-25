@@ -2,9 +2,16 @@
   .container {
     width: 428px;
   }
+  .tel-link {
+    font-size: 36px;
+  }
+  .soc-mobile-list {
+    gap: 56px;
+  }
   .customers-link {
     width: 190px;
   }
+
   .hero {
     background-image: linear-gradient(
         to right,
@@ -38,6 +45,10 @@
   .container {
     width: 768px;
   }
+  .menu-icon {
+    display: none;
+  }
+
   .mob-menu-button {
     display: none;
   }
