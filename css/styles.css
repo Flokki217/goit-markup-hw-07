@@ -61,7 +61,11 @@ h4 {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
 .logo .logo-studio {
   color: var(--tittle-color);
 }
@@ -116,7 +120,9 @@ body {
   height: 100vh;
   padding: 24px 24px 40px 40px;
   background-color: #ffffff;
-
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
