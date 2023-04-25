@@ -175,6 +175,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 1;
   background: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin-left: auto;
@@ -188,6 +189,10 @@ body {
 .close-mob-button:hover {
   background-color: var(--bright-color);
   color: var(--white-color);
+}
+.soc-mobile-list .soc-icon {
+  width: 24px;
+  height: 24px;
 }
 /* Hero */
 .hero {
@@ -590,15 +595,13 @@ body {
 
 .portfolio-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 48px 24px;
   position: relative;
 }
 
 .portfolio-list .item {
   transition: box-shadow var(--for-animation);
-  width: calc((100% - 48px) / 3);
-  position: relative;
 }
 .portfolio .item:hover,
 .portfolio .item:focus {
@@ -617,6 +620,11 @@ body {
 }
 .portfolio .secondary-tittle {
   line-height: 1.2;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--tittle-color);
 }
 .portfolio-list .works:hover .overlay-text {
   transform: translate(0);
