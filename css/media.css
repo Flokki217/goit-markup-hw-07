@@ -40,6 +40,9 @@
   .modal-window {
     width: 392px;
   }
+  .checkbox-label {
+    font-size: 12px;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
