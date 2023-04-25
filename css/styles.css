@@ -120,9 +120,6 @@ body {
   height: 100vh;
   padding: 24px 24px 40px 40px;
   background-color: #ffffff;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
