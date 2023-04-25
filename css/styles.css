@@ -593,7 +593,7 @@ body {
   flex-wrap: wrap;
   gap: 16px 24px;
   justify-content: flex-start;
-  margin-bottom: 72px;
+  margin-bottom: 48px;
 }
 
 .portfolio-list {
@@ -628,6 +628,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--tittle-color);
+  text-align: start;
 }
 .portfolio-list .works:hover .overlay-text {
   transform: translate(0);
