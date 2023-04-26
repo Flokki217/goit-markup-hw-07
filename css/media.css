@@ -201,6 +201,9 @@
     flex-direction: column;
     align-items: start;
     text-align: start;
+    width: 590px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .footer-input {
     width: 264px;
